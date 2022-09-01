@@ -30,8 +30,8 @@ Y= (A&&B&&X);
 
 digitalWrite(7,P);
 digitalWrite(6,Q);
-disp_7474(D,C,B,A);
 digitalWrite(9, Y);
+disp_7474(D,C,B,A);
 digitalWrite(13, LOW) ;
 delay (2000);
 
