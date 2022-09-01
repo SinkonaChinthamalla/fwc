@@ -1,7 +1,7 @@
 #include <Arduino.h>
 int D, C, B, A, X;
-int P,Q,Y;
-void disp_7474( int D,int C,int A,int B)
+int P, Q, Y;
+void disp_7474( int D,int C,int B,int A)
 {
 digitalWrite(2, B);
 digitalWrite(3, A);
@@ -18,7 +18,6 @@ pinMode(9, OUTPUT);
 
 }
 void loop(){
-digitalWrite(13, HIGH);
 delay (2000);
 X=digitalRead(8);
 A=digitalRead(4);
@@ -32,7 +31,6 @@ digitalWrite(7,P);
 digitalWrite(6,Q);
 digitalWrite(9, Y);
 disp_7474(D,C,B,A);
-digitalWrite(13, LOW) ;
 delay (2000);
 
 }  
