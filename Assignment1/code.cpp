@@ -15,9 +15,10 @@ pinMode(4, INPUT);
 pinMode(5, INPUT);
 pinMode(8, INPUT);
 pinMode(9, OUTPUT);
-
 }
+
 void loop(){
+digitalWrite(13, HIGH);
 X=digitalRead(8);
 A=digitalRead(4);
 B=digitalRead(5);
@@ -30,6 +31,7 @@ digitalWrite(7,P);
 digitalWrite(6,Q);
 digitalWrite(9, Y);
 disp_7474(D,C,B,A);
+digitalWrite(13, LOW) ;
 delay (2000);
 
 }  
