@@ -18,7 +18,6 @@ pinMode(9, OUTPUT);
 
 }
 void loop(){
-delay (2000);
 X=digitalRead(8);
 A=digitalRead(4);
 B=digitalRead(5);
