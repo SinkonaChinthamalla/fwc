@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {I}Components}{1}{section.1}%
+\contentsline {section}{\numberline {II}Hardware}{1}{section.2}%
+\contentsline {section}{\numberline {III}Finite State Machine}{1}{section.3}%
